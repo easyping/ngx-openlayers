@@ -118,7 +118,7 @@
             "tsConfig": [
               "tsconfig.app.json",
               "tsconfig.spec.json",
-              "e2e/tsconfig.json",
+              "e2e/tsconfig.json"
             ],
             "exclude": [
               "**/node_modules/**",
@@ -180,5 +180,8 @@
       }
     }
   },
-  "defaultProject": "demo-ngx-openlayers"
+  "defaultProject": "demo-ngx-openlayers",
+  "cli": {
+    "analytics": "b0300e67-4e3c-4c72-9e4a-70fa39e29a8c"
+  }
 }

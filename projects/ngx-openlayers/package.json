@@ -7,6 +7,9 @@
   "standard-version": {
     "postchangelog": "cp projects/ngx-openlayers/CHANGELOG.md dist/ngx-openlayers/CHANGELOG.md"
   },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
   "peerDependencies": {
     "@angular/common": ">=6.0.0 <=9.x.x",
     "@angular/core": ">=6.0.0 <=9.x.x",
